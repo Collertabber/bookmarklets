@@ -1,3 +1,5 @@
+document.getElementById("demo1").innerHTML = "Success!";
+
 const axios = require('axios');
 
 async function doGetRequest() {
