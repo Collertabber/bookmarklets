@@ -1,7 +1,7 @@
 function appendHTML() {
         var wrapper = document.createElement("div");
-        wrapper.innerHTML = '<script src="https://collertabber.github.io/proxy-idk/client.js"></script> \
-<style src="https://collertabber.github.io/proxy-idk/style.css"></script> \
+        wrapper.innerHTML = '<script src="https://collertabber.github.io/bookmarklets/client.js"></script> \
+<style src="https://collertabber.github.io/bookmarklets/style.css"></script> \
 <button class="bookmarklets" onclick="add()">Add</button> \
 <button class="bookmarklets" onclick="load()">Load</button> \
 <button class="bookmarklets" onclick="clear()">Clear</button> \
