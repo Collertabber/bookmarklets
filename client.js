@@ -10,7 +10,7 @@ async function doGetRequest() {
         }
     });
 
-    console.log(res.data);
+    document.getElementById("demo").innerHTML = res.data;
 }
 
 
