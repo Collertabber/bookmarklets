@@ -1,4 +1,4 @@
-document.getElementById("demo1").innerHTML = "Success!";
+document.getElementById("demo2").innerHTML = "Success!";
 
 const axios = require('axios');
 
