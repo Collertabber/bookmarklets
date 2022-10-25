@@ -11,3 +11,9 @@ app.get('*', (req, res) => {
 });
 
 app.listen(3000, () => console.log('Application started on port 3000'));
+
+app.get('*', (req, res) => {
+
+    console.log('Request', req.method, req.url);
+    proxy.web(req, res, { target: `${req.protocol}://${req.hostname}` });
+});
