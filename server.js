@@ -1,3 +1,5 @@
+document.getElementById("demo1").innerHTML = "Success!";
+
 const express = require('express');
 const httpProxy = require('http-proxy');
 
